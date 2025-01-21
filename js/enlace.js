@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   buttonCV.addEventListener("click", () => {
     const openCV = document.createElement("a");
-    openCV.href = "https://iarthurdev.github.io/portafolio/assets/cv/curriculum.pdf";
+    openCV.href = `${window.location.origin}${window.location.pathname.replace(/\/$/, "")}/assets/cv/curriculum.pdf`;
     openCV.target = "_blank";
     openCV.click();
   });
