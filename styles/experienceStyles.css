@@ -1,0 +1,69 @@
+#experiencia {
+  margin-top: 5%;
+}
+
+.experience-container {
+  height: auto;
+}
+
+.experience-details {
+  display: flex;
+  height: 35vh;
+}
+
+.experience-role {
+  padding: 10px;
+  width: 40%;
+}
+
+.experience-role p {
+  margin-left: 20px;
+}
+
+.detail-exp {
+  margin-left: 5%;
+  width: 50%;
+  text-align: justify;
+  display: flex;
+  align-items: end;
+  font-weight: 500;
+}
+
+@media (max-width: 620px) {
+  #experiencia {
+    margin-top: 10%;
+  }
+  .experience-details {
+    flex-direction: column;
+    height: 35vh;
+  }
+
+  .experience-role {
+    width: auto;
+    font-size: 0.7rem;
+  }
+
+  .detail-exp {
+    margin-left: 0;
+    width: auto;
+    font-size: 0.7rem;
+  }
+}
+
+@media (min-width: 620px) and (max-width: 1500px) {
+  #experiencia {
+    margin-top: 5%;
+  }
+
+  .experience-role {
+    width: auto;
+    font-size: 1rem;
+  }
+
+  .detail-exp {
+    margin-left: 5%;
+    width: 60%;
+    font-size: 0.7rem;
+    align-items: center;
+  }
+}

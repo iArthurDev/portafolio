@@ -1,0 +1,161 @@
+#proyectos {
+  margin-top: 5%;
+}
+
+.projects-container {
+  width: 100%;
+}
+
+.project-detail-container {
+  display: flex;
+  height: 45vh;
+}
+
+.img-project-container {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgProyect {
+  border-radius: 20px;
+  width: 80%;
+  height: 80%;
+  transition: 0.5s;
+}
+
+.imgProyect:hover {
+  transform: scale(1.1);
+}
+
+.detail-container {
+  width: 55%;
+  padding: 10px;
+  text-align: justify;
+}
+
+.proyect-name {
+  font-size: 1.3rem;
+}
+
+.proyect-description {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.button-code-container button {
+  padding: 5px;
+  width: 20%;
+  border-radius: 20px;
+  border: 1px solid rgb(75, 75, 75);
+  background-color: rgb(33, 31, 31);
+  color: rgb(188, 188, 188);
+  transition: 0.5s;
+}
+
+.button-code-container button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.technologies-container {
+  padding: 5px;
+  height: auto;
+}
+
+@media (max-width: 689px) {
+  #proyectos {
+    margin-top: 10%;
+  }
+
+  .project-detail-container {
+    flex-direction: column;
+  }
+
+  .img-project-container,
+  .detail-container {
+    width: 100%;
+    padding: 0;
+  }
+
+  .detail-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .imgProyect {
+    width: 90%;
+    height: 25vh;
+  }
+
+  .proyect-name {
+    font-size: 0.8rem;
+  }
+
+  .proyect-description {
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+
+  .button-code-container button {
+    padding: 5px;
+    width: auto;
+    font-size: 0.8rem;
+  }
+
+  .button-code-container button i {
+    font-size: 1rem;
+  }
+
+  .technologies-container {
+    font-size: 0.8rem;
+    width: auto;
+  }
+
+  .projects-container {
+    margin-bottom: 15%;
+    height: 55vh;
+  }
+}
+
+@media (min-width: 690px) and (max-width: 1500px) {
+  #proyectos {
+    margin-top: 5%;
+  }
+
+  .img-project-container,
+  .detail-container {
+    width: auto;
+    padding: 0;
+  }
+
+  .detail-container {
+    margin-left: 20px;
+    width: 50%;
+  }
+
+  .imgProyect {
+    width: 100%;
+    height: 30vh;
+  }
+
+  .proyect-description {
+    font-size: 0.8rem;
+    font-weight: 100;
+  }
+
+  .button-code-container button {
+    padding: 5px;
+    width: auto;
+    font-size: 1rem;
+  }
+
+  .button-code-container button i {
+    font-size: 1.2rem;
+  }
+
+  .projects-container {
+    margin-bottom: 10%;
+  }
+}

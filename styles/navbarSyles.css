@@ -1,0 +1,68 @@
+.nav-container {
+  margin-top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  margin-left: 50px;
+  width: 30%;
+  display: flex;
+  position: fixed;
+  border-radius: 20px;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+  font-size: 0.8rem;
+  z-index: 1;
+}
+
+.navbar.scrolled {
+  background-color: #222223;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a[href="#experiencia"]:focus,
+a[href="#sobre-mi"]:focus,
+a[href="#proyectos"]:focus,
+a[href="#contacto"]:focus {
+  color: #007bff; /* Color para el enlace activo */
+  font-weight: bold;
+  border-bottom: 2px solid #007bff; /* Línea inferior para destacar */
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    margin-left: auto;
+    width: auto;
+    font-size: 0.6rem;
+  }
+
+  .nav-links {
+    gap: 2rem;
+    margin-right: 20px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1500px) {
+  .navbar {
+    margin-left: 10px;
+    width: auto;
+    font-size: 0.7rem;
+  }
+
+  .nav-links {
+    gap: 2rem;
+    margin-right: 30px;
+  }
+}

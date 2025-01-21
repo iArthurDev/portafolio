@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/globalStyles.css" />
+    <link rel="stylesheet" href="/styles/navbarSyles.css" />
+    <link rel="stylesheet" href="/styles/homeStyle.css" />
+    <link rel="stylesheet" href="/styles/proyects.css" />
+    <link rel="stylesheet" href="/styles/experienceStyles.css" />
+    <link rel="stylesheet" href="/styles/sobreMiStyles.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/cf86aee2f9.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Portafolio</title>
+  </head>
+  <body>
+    <div class="nav-container">
+      <nav class="navbar" id="navbar">
+        <ul class="nav-links">
+          <li><a href="#experiencia">Experiencia</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#sobre-mi">Sobre mi</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="sections-container">
+      <section id="home">
+        <div class="home-container">
+          <div class="home-perfil-container">
+            <img class="imgPerfil" src="/assets/r2d2.jpg" alt="" />
+            <div class="btn-work-container">
+              <button class="work-btn" id="btnLink">
+                <i class="fa-brands fa-linkedin"></i>
+                Disponible para trabajar
+              </button>
+            </div>
+          </div>
+          <div class="info-perfil-container">
+            <div class="perfil">
+              <p>
+                Hola, soy
+                <span style="color: yellow">Luis Arturo Dominguez Alatorre</span
+                >.
+              </p>
+              <p>
+                Un desarrollador apasionado por crear soluciones innovadoras y
+                eficientes. Me especializo en el desarrollo front-end y siempre
+                estoy aprendiendo nuevas tecnologías.
+              </p>
+            </div>
+            <div class="links-container">
+              <button class="cv-btn" id="button-cv">Descarga mi cv</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="div-seccion"></div>
+
+      <section id="experiencia">
+        <p class="seccion-name">
+          <span><i class="fa-solid fa-briefcase"></i></span>Experiencia
+        </p>
+        <div class="experience-container">
+          <div class="experience-details">
+            <div class="experience-role">
+              <span style="color: rgb(237, 240, 53)">o</span>
+              <p>Prácticas profesionales en Down Obregón</p>
+              <p>Enero 2024 – Mayo 2024</p>
+            </div>
+            <div class="detail-exp">
+              <p>
+                Desarrollo de un sistema académico-administrativo,
+                principalmente enfocado en el análisis de requerimientos, diseño
+                de diagramas y desarrollo de un caso de uso, utilizando
+                <span style="color: rgb(255, 166, 0)">JavaScript</span> para el
+                desarrollo del front-end,<span style="color: rgb(255, 166, 0)">
+                  GitHub</span
+                >
+                para manejo de control de versiones y
+                <span style="color: rgb(255, 166, 0)">Lucid chart</span> para la
+                elaboración de los diagramas.
+              </p>
+            </div>
+          </div>
+          <div class="experience-details">
+            <div class="experience-role">
+              <span style="color: rgb(237, 240, 53)">o</span>
+              <p>Centro Nutricional JAMA | Desarrollador Front-end</p>
+              <p>Agosto 2023 – Diciembre 2023</p>
+            </div>
+            <div class="detail-exp">
+              <p>
+                Desarrollo de una aplicación en
+                <span style="color: rgb(255, 166, 0)">Java</span> con
+                <span style="color: rgb(255, 166, 0)">MySQL</span> para manejar
+                el registro de pacientes y la asignación de dietas
+                personalizadas basadas en platillos registrados. La aplicación
+                utiliza los patrones de diseño
+                <span style="color: rgb(255, 166, 0)">Singleton</span> y
+                <span style="color: rgb(255, 166, 0)">Factory</span> para
+                garantizar una arquitectura escalable y facilitar el
+                mantenimiento del código.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="div-seccion"></div>
+
+      <section id="proyectos">
+        <p class="seccion-name">
+          <span><i class="fa-solid fa-code"></i></span>Proyectos
+        </p>
+        <div class="projects-container">
+          <div class="project-detail-container">
+            <div class="img-project-container">
+              <img class="imgProyect" src="/assets/todo-project.png" />
+            </div>
+            <div class="detail-container">
+              <p class="proyect-name">Sistema de gestión de tareas</p>
+              <div class="technologies-container">
+                <span
+                  style="
+                    background-color: black;
+                    padding: 5px 10px;
+                    border-radius: 15px;
+                  "
+                  ><i class="devicon-nextjs-line" style="font-size: 0.9rem"></i
+                  >Next Js</span
+                >
+              </div>
+              <p class="proyect-description">
+                Gestor de tareas con tablero Kanban desarrollado con Next.js,
+                diseñado para organizar y visualizar el flujo de trabajo de
+                manera intuitiva. Ideal para equipos y usuarios individuales que
+                buscan mejorar su productividad con una herramienta simple y
+                eficiente.
+              </p>
+              <div class="button-code-container">
+                <button id="btn-project1">
+                  <i class="fa-brands fa-github"></i>Código
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="projects-container">
+          <div class="project-detail-container">
+            <div class="img-project-container">
+              <img class="imgProyect" src="/assets/presupesto.app.png" />
+            </div>
+            <div class="detail-container">
+              <p class="proyect-name">Calculadora de presupuesto</p>
+              <div class="technologies-container">
+                <span
+                  style="
+                    background-color: black;
+                    padding: 5px 10px;
+                    border-radius: 15px;
+                  "
+                  ><i class="devicon-nextjs-line" style="font-size: 0.9rem"></i
+                  >Next Js</span
+                >
+              </div>
+              <p class="proyect-description">
+                Aplicación desarrollada con Next.js para calcular ingresos y
+                egresos. Permite obtener una vista clara del balance financiero
+                de forma rápida y simple.
+              </p>
+              <div class="button-code-container">
+                <button id="btn-project2">
+                  <i class="fa-brands fa-github"></i>Código
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="div-seccion"></div>
+
+      <section id="sobre-mi">
+        <p class="seccion-name">
+          <span><i class="fa-regular fa-circle-user"></i></span>Sobre mi
+        </p>
+        <div class="sobre-mi-container">
+          <div class="resume">
+            <p>
+              Como desarrollador de software tengo un enfoque en crear
+              soluciones eficientes y atractivas. Mi principal interés radica en
+              el desarrollo front-end, donde puedo combinar habilidades técnicas
+              y creatividad para construir experiencias de usuario intuitivas y
+              funcionales.
+            </p>
+            <p>
+              Siempre estoy en busca de nuevos retos que me permitan aprender,
+              crecer y aportar valor a los proyectos en los que participo. Me
+              considero una persona curiosa, orientada al detalle y comprometida
+              con la calidad. Mi objetivo es seguir aprendiendo y mejorando mis
+              habilidades mientras trabajo con equipos creativos en proyectos
+              que realmente impacten a los usuarios.
+            </p>
+          </div>
+          <div class="resume-img"></div>
+        </div>
+      </section>
+    </div>
+    <script src="/js/navbar.js"></script>
+    <script src="/js/enlace.js"></script>
+  </body>
+</html>
