@@ -156,6 +156,13 @@
   }
 
   .projects-container {
-    margin-bottom: 10%;
+    margin-bottom: 35%;
+  }
+
+  .technologies-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+    width: 120px;
   }
 }
