@@ -12,7 +12,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
   buttonCV.addEventListener("click", () => {
     const openCV = document.createElement("a");
-    openCV.href = "portafolio/assets/cv/curriculum.pdf";
+    openCV.href = `${window.location.origin}${window.location.pathname.replace(
+      /\/$/,
+      ""
+    )}/assets/cv/curriculum.pdf`;
     openCV.target = "_blank";
     openCV.click();
   });
@@ -23,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   buttonproject2.addEventListener("click", () => {
-    window.location.href = "https://github.com/iArthurDev/app-presupuesto.git";
+    window.location.href = "https://github.com/iArthurDev/presupuesto-app.git";
   });
 
   buttonproject3.addEventListener("click", () => {
