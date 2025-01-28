@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const buttonCV = document.getElementById("button-cv");
   const buttonproject1 = document.getElementById("btn-project1");
   const buttonproject2 = document.getElementById("btn-project2");
+  const buttonproject3 = document.getElementById("btn-project3");
 
   buttonLink.addEventListener("click", () => {
     window.location.href =
@@ -24,4 +25,8 @@ document.addEventListener("DOMContentLoaded", () => {
   buttonproject2.addEventListener("click", () => {
     window.location.href = "https://github.com/iArthurDev/presupuesto-app.git";
   });
+
+  buttonproject3.addEventListener("click", () => {
+    window.location.href = "https://github.com/iArthurDev/weatherApp.git"
+  })
 });
