@@ -30,6 +30,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   buttonproject3.addEventListener("click", () => {
-    window.location.href = "https://github.com/iArthurDev/app-presupuesto.git";
+    window.location.href = "https://github.com/iArthurDev/weatherApp.git";
   });
 });
