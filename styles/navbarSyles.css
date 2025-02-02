@@ -7,7 +7,7 @@
 
 .navbar {
   margin-left: 50px;
-  width: 30%;
+  width: 35%;
   display: flex;
   position: fixed;
   border-radius: 20px;
@@ -30,6 +30,10 @@
 a {
   text-decoration: none;
   color: white;
+}
+
+.translate {
+  cursor: pointer;
 }
 
 a[href="#experiencia"]:focus,
